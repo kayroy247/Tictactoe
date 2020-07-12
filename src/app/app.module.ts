@@ -1,3 +1,5 @@
+import { BoardComponent } from './components/board/board.component';
+import { SquareComponent } from './components/square/square.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -20,4 +22,4 @@ import { AppComponent } from './app.component';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

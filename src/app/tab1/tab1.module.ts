@@ -1,3 +1,5 @@
+import { BoardComponent } from './../components/board/board.component';
+import { SquareComponent } from './../components/square/square.component';
 import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -13,8 +15,9 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    Tab1PageRoutingModule,
+
   ],
-  declarations: [Tab1Page]
+  declarations: [Tab1Page, BoardComponent, SquareComponent]
 })
-export class Tab1PageModule {}
+export class Tab1PageModule { }

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firetest-b75fc": {
+      "hosting": {
+        "app": [
+          "firetest-b75fc"
+        ]
+      }
+    }
+  }
+}
